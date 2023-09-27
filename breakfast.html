@@ -3,15 +3,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Breakfast</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
-</head>
+</head>    
 <body>
-    <div>
-        <a href="breakfast.html">Breakfast /</a>        
-        <a href="lunch.html">Lunch /</a>
-        <a href="dinner.html">Dinner /</a>
-        <a href="desserts.html">Desserts</a>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+         <a class="navbar-brand" href="#">The Last Supper Restaurant</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav">
+                 <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="breakfast.html">Breakfast</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="lunch.html">Lunch</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="dinner.html">Dinner</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" href="desserts.html">Desserts</a>
+                 </li>
+             </ul>
+         </div>
+        </div>        
+       </nav>  
     <section>
         <h1>Breakfast</h1>
         <h4>Start your day with flavor with a twist of darkness</h4>
@@ -30,43 +52,43 @@
                     <td><strong>Zombie Brain Omelette</strong></td>
                     <td>A three egg omelette filled with "zombie brains" (sliced mushrooms), diced "eyeballs" (tomatoes), cover in a thick layer of mucous (hollandaise sauce)</td>
                     <td><strong>$11.99</strong></td>
-                    <td><img class="design" src="zombie_brain_omelette.png"></td>
+                    <td><img class="design" src="images/zombie_brain_omelette.png"></td>
                 </tr>
                 <tr>
                     <td><strong>Bile Pancakes</strong></td>
                     <td>A stack of pancakes smothered in "green bile" (pandan cream sauce)</td>
                     <td><strong>$10.50</strong></td>
-                    <td><img class="design" src="Bile_Pancakes.png"></td>
-                    
-
+                    <td><img class="design" src="images/Bile_Pancakes.png"></td>
                 </tr>
                 <tr>
                     <td><strong>Maggot Infested Breakfast Burrito</strong></td>
                     <td>Scrambled eggs, spicy chorizo, with writhing "maggots" (shredded hashbrowns) wrapped in green tortilla</td>
                     <td><strong>$9.50</strong></td>
-                    <td><img class="design" src="maggot_breakfast_burrito.png"></td>
+                    <td><img class="design" src="images/maggot_breakfast_burrito.png"></td>
                 </tr>
                 <tr>
                     <td><strong>Black Ooze Coffee</strong></td>
                     <td>Fredshly brewed so thick, it'll make you think it's from the underworld</td>
                     <td><strong>$2.99</strong></td>
-                    <td><img class="design" src="black_ooze_coffee.jpg"></td>
+                    <td><img class="design" src="images/black_ooze_coffee.jpg"></td>
 
                 </tr>
                 <tr>
                     <td><strong>Sinister Cinnamon Roll</strong></td>
                     <td>A cinnamon roll splattered in blood orange infused red glaze</td>
                     <td><strong>$4.99</strong></td>
-                    <td><img class="design" src="blood_glaze_cinnamon_roll.png"></td>
+                    <td><img class="design" src="images/blood_glaze_cinnamon_roll.png"></td>
                 </tr>
                 <tr>
                     <td><strong>Hellish Hashbrowns</strong></td>
                     <td>Crispy hash browns sprinkled with ghost pepper flakes drizzled with habanero sauce </td>
                     <td><strong>$3.99</strong></td>
-                    <td><img class="design" src="hellish_hasb_browns.jpg"></td>
+                    <td><img class="design" src="images/hellish_hasb_browns.jpg"></td>
                 </tr>
             </tbody>
         </table>
     </section>
+    <script> src="node_modules/jquery/dist/jquery.js"</script>
+    <script> src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"</script>  
 </body>
 </html>
